@@ -1,0 +1,45 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+}
+
+section{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-right: 200px;
+    padding-left: 200px;
+
+}
+h1{
+    font-size: 45px;
+}
+/* p{
+    font-size: 20px; */
+}
+
+
+.photo-grapher img{
+    width: 450px;
+    height: 400px;
+    padding-left: 10px;
+}
+
+.about-influencer{
+    padding-top: 70px;
+    padding-right: 60px;
+}
+.photo-grapher img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: 40px;
+}
+.book-now{
+    background-color: tomato;
+    text-align: center;
+    color: white;
+    margin-right: 430px;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
