@@ -1,6 +1,11 @@
+
 body{
     font-family: 'Rubik', sans-serif;
-    background-color: rgb(245, 240, 232);
+    background-color:whitesmoke;
+}
+.profile-part{
+    display: flex;
+   
 }
 #products{
     margin-left: 150px;
@@ -8,7 +13,6 @@ body{
     padding-left: 60px;
 }
 section{
-    display: flex;
     padding-top: 55px;
     padding-right: 200px;
     padding-left: 200px;
@@ -78,14 +82,14 @@ a:link{
 .fa-star {
     color: gold;
 }
+.photo-grapher:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
 .grid-container:hover .grid-collection{
     transform: scale(1.2);
     transition: transform 1s ease-in-out;
 }
-/* .photo-frame:hover .photo {
-    transform: scale(1.5);
-    transition: transform 2s ease-in-out;
-} */
 .next{
     text-align: center;
     margin-left: 500px;
@@ -129,3 +133,31 @@ footer{
 .fa-instagram:hover{
     color: tomato;
 }
+/* @media (max-width:800px) {
+    Collection Item{
+        margin: 0pt;
+        margin-left: 0px;
+    }
+    .popular-collection{
+        flex-direction: column;
+    }
+    
+}
+
+/* * @media (max-width:700px) {
+    food {
+        background-color: orange;
+        margin-bottom: 20px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width:900px) {
+    food {
+        background-color: palegoldenrod;
+    }
+
+} */
