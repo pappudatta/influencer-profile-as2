@@ -51,10 +51,17 @@ a:link{
 .fa-arrow-right{
     padding-left: 30px;
 }
+.collection-title{
+  text-align: center;
+  margin-bottom: 0;
+
+}
 .popular-collection{
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      grid-gap:25px;
+     margin-top: 0;
+     padding-top:px;
 }
 .grid-container{
     width: 300px;
@@ -74,6 +81,15 @@ a:link{
 
 .fa-star {
     color: gold;
+}
+.next{
+    text-align: center;
+    margin-left: 500px;
+    padding-top: 15px;
+    padding-left: 400px;
+}
+span{
+    color: red;
 }
 p{
  /* margin-top: 5px; */
