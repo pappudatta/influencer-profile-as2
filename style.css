@@ -1,25 +1,21 @@
 body{
     font-family: 'Rubik', sans-serif;
-    margin: 0px;
-    background-color: rgb(237, 241, 222);
+    background-color: rgb(245, 240, 232);
 }
-
+#products{
+    margin-left: 150px;
+    padding-top: 30px;
+    padding-left: 60px;
+}
 section{
     display: flex;
-    margin: 0 auto;
     padding-top: 55px;
     padding-right: 200px;
     padding-left: 200px;
-
 }
 h1{
     font-size: 45px;
 }
-/* p{
-    font-size: 20px; */
-}
-
-
 .photo-grapher img{
     width: 450px;
     height: 400px;
@@ -41,7 +37,7 @@ h1{
     text-align: center;
     color: white;
     margin-right: 430px;
-    padding: 10px 30px;
+    padding: 10px;
     border-radius: 25px;
 }
 a:link{
@@ -82,6 +78,14 @@ a:link{
 .fa-star {
     color: gold;
 }
+.grid-container:hover .grid-collection{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+/* .photo-frame:hover .photo {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+} */
 .next{
     text-align: center;
     margin-left: 500px;
@@ -91,6 +95,37 @@ a:link{
 span{
     color: red;
 }
-p{
- /* margin-top: 5px; */
+.bonus{
+    display: flex;
+    padding-bottom: 15px;
+}
+.bonus-part img{
+    border-radius: 15px;
+}
+.bonus-details{
+    margin-top: 15px;
+    padding-left: 60px;
+}
+footer{
+    background-color: rgb(22, 20, 20);
+    height:px;
+}
+.junior{
+    padding-top:3px;
+    color: white;
+    text-align: center;
+}
+.copy-rights{
+    color: white;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.fa-facebook:hover{
+    color: tomato;
+}
+.fa-linkedin:hover{
+    color: tomato;
+}
+.fa-instagram:hover{
+    color: tomato;
 }
