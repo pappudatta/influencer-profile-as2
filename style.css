@@ -1,6 +1,7 @@
 body{
     font-family: 'Rubik', sans-serif;
     margin: 0px;
+    background-color: rgb(237, 241, 222);
 }
 
 section{
@@ -40,7 +41,7 @@ h1{
     text-align: center;
     color: white;
     margin-right: 430px;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 25px;
 }
 a:link{
@@ -50,11 +51,30 @@ a:link{
 .fa-arrow-right{
     padding-left: 30px;
 }
+.popular-collection{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap:25px;
+}
+.grid-container{
+    width: 300px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(245, 212, 212, 0.342);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding: 20px;
+}
 .grid-collection img{
     width:300px;
-    height:256px;
+    height:240px;
     border-radius: 10px;
+    padding-left: 5px;
 }
-.fa-star star{
+
+.fa-star {
     color: gold;
+}
+p{
+ /* margin-top: 5px; */
 }
