@@ -86,14 +86,18 @@ a:link{
 .fa-star {
     color: gold;
 }
+.grid-container:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
 .photo-grapher:hover{
     transform: scale(1.2);
     transition: transform 1s ease-in-out;
 }
-.grid-container:hover .grid-collection{
+/* .grid-container:hover .grid-collection{
     transform: scale(1.2);
     transition: transform 1s ease-in-out;
-}
+} */
 .next{
     text-align: center;
     margin-left: 500px;
